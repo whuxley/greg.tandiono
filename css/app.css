@@ -1,0 +1,78 @@
+/*
+This is a Custom CSS base adopting UIKIT Frameword
+Author: Gregory Tandiono;
+URI: http://greg.winstonhuxley.com;
+Company: Winston Huxley;
+"I tip my hat to the UIKIT guys"
+*/
+
+@font-face{
+	font-family:'FontAwesome';
+	src:url("../fonts/fontawesome-webfont.eot");
+	src:url("../fonts/fontawesome-webfont.eot?#iefix") format("embedded-opentype"),url("../fonts/fontawesome-webfont.woff") format("woff"),url("../fonts/fontawesome-webfont.ttf") format("truetype");font-weight:normal;font-style:normal
+	}
+
+.adjusted h1, h2, h3, h4, h5, p{
+	font-family: 'lato', sans-serif, arial, helvetica;
+	font-weight: 300;
+}
+
+
+
+.hero-unit a{
+	color:#ede0c7;
+	font-size: 16px;
+	font-weight: 300;
+	text-transform: uppercase;
+	border:1px solid #ede0c7;
+	padding:15px;
+	transition: border 0.5s ease;
+	transition: color 0.5s ease;
+
+}
+
+.hero-unit a:hover{
+	border:1px solid #269b9f;
+	color:#269b9f;
+}
+
+.anim-delay{
+	animation-delay:.5s;
+	-webkit-animation-delay:.5s; /* Safari and Chrome */
+}
+
+.adjusted h1{
+	color:#269b9f;
+}
+
+.hero-unit{
+	height:685px;
+	font-weight: 300
+}
+.hero-unit h1{
+	padding-top: 100px
+}
+
+.hero-unit small{color:white;}
+
+.copyright{
+	color:#ede0c7;
+	padding-top: 10px;
+	font-family: 'lato';
+	font-size: 11px;
+	font-weight: 300;
+}
+
+.social-links ul li a{
+	color:#ede0c7;
+	font-size:16px;
+}
+
+.social-links ul li a:hover{
+	color:#269b9f;
+	font-size:16px;
+}
+
+footer{background: #42403c; padding-top: 20px; padding-bottom: 20px; }
+
+
