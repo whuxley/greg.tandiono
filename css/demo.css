@@ -39,7 +39,7 @@ body {
 .container > header a:hover {
 	color: #269b9f;
 	/*text-decoration: underline;*/
-	
+
 }
 
 .container > header h1 {
@@ -134,7 +134,7 @@ body {
 @media screen and (max-width: 1025px) {
 	.container > header {
 		margin: 0 auto;
-		padding: 120px 50px;
+		padding: 175px 50px;
 		font-size: 70%;
 		text-align: right;
 	}
